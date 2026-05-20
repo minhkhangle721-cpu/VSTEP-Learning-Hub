@@ -93,7 +93,7 @@ Therefore, considering both the spiritual value and practicality, a book stands 
 
   return (
     <div className="min-h-screen bg-slate-50 text-slate-800 font-sans flex flex-col">
-      {/* HEADER */}
+      {/* HEADER & NAVIGATION */}
       <header className="bg-gradient-to-r from-blue-700 to-indigo-800 text-white shadow-md sticky top-0 z-50">
         <div className="max-w-6xl mx-auto px-4 py-4 flex flex-col sm:flex-row justify-between items-center gap-4">
           <div className="flex items-center space-x-3">
@@ -137,7 +137,8 @@ Therefore, considering both the spiritual value and practicality, a book stands 
 
       {/* MAIN CONTENT */}
       <main className="flex-grow max-w-6xl w-full mx-auto px-4 py-8">
-        {/* TRANG 1: TRANG CHỦ */}
+        
+        {/* TAB 1: TRANG CHỦ */}
         {activeTab === "home" && (
           <div className="space-y-8">
             <div className="bg-white border border-slate-100 rounded-2xl p-6 sm:p-8 shadow-sm flex flex-col md:flex-row justify-between items-center gap-6">
@@ -181,7 +182,7 @@ Therefore, considering both the spiritual value and practicality, a book stands 
           </div>
         )}
 
-        {/* TRANG 2: TÀI LIỆU MẪU */}
+        {/* TAB 2: TÀI LIỆU MẪU */}
         {activeTab === "materials" && (
           <div className="space-y-6">
             <div className="border-b border-slate-200 pb-4">
@@ -222,7 +223,7 @@ Therefore, considering both the spiritual value and practicality, a book stands 
           </div>
         )}
 
-        {/* TRANG 3: LIÊN HỆ */}
+        {/* TAB 3: LIÊN HỆ */}
         {activeTab === "contact" && (
           <div className="max-w-xl mx-auto space-y-6">
             <div className="text-center space-y-2">
