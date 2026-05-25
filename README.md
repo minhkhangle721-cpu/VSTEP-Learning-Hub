@@ -1,42 +1,63 @@
-# 🎓 VSTEP Learning Hub - Dự Án Giữa Kỳ (Front-End Nâng Cao)
+# 🎓 VSTEP Learning Hub — Hệ Thống Hỗ Trợ Ôn Tập Khung Năng Lực Ngoại Ngữ 6 Bậc
 
-> **Trường Đại học Lạc Hồng (LHU)** > **Khoa:** Công nghệ thông tin  
-> **Giảng viên hướng dẫn:** Thầy Nguyễn Xuân Hưng  
-
----
-
-## 📝 1. Giới thiệu đề tài
-**VSTEP Learning Hub** là nền tảng ứng dụng Web hiện đại giúp sinh viên tra cứu tài liệu và ôn luyện chứng chỉ tiếng Anh theo chuẩn khung năng lực ngoại ngữ 6 bậc dùng cho Việt Nam (VSTEP). 
-Giai đoạn giữa kỳ tập trung hoàn thiện toàn bộ cấu trúc giao diện ứng dụng (UI/UX) mượt mà, tối ưu trải nghiệm Single Page và hỗ trợ hiển thị tốt trên mọi thiết bị.
+<div align="center">
+  <img src="https://img.shields.io/badge/Framework-Next.js%2014-black?style=for-the-badge&logo=nextdotjs" alt="Next.js">
+  <img src="https://img.shields.io/badge/Language-TypeScript-blue?style=for-the-badge&logo=typescript" alt="TypeScript">
+  <img src="https://img.shields.io/badge/Styling-Tailwind%20CSS-38B2AC?style=for-the-badge&logo=tailwindcss" alt="Tailwind CSS">
+  <img src="https://img.shields.io/badge/Platform-GitHub%20Pages-2088FF?style=for-the-badge&logo=githubpages&logoColor=white" alt="GitHub Pages">
+</div>
 
 ---
 
-## 🛠️ 2. Công nghệ sử dụng
-Dự án được xây dựng dựa trên các công nghệ Front-End mạnh mẽ và phổ biến nhất hiện nay:
-* **Framework:** Next.js 14 (App Router)
-* **Ngôn ngữ:** TypeScript
-* **Styling:** Tailwind CSS (Responsive Design)
-* **Quản lý package:** Đóng gói bằng npm (Node Package Manager)
+## 1. Giới thiệu
+Website **VSTEP Learning Hub** được xây dựng cho học phần Lập trình Front-End Nâng Cao tại Trường Đại học Lạc Hồng (LHU). 
+
+**Mục tiêu & Chức năng chính:**
+Nền tảng giúp sinh viên tra cứu tài liệu và ôn luyện chứng chỉ tiếng Anh theo chuẩn khung năng lực ngoại ngữ 6 bậc dùng cho Việt Nam (VSTEP). Ứng dụng hỗ trợ phân loại lộ trình học thông minh (B1 và B2), tối ưu hóa trải nghiệm Single Page mượt mà và hiển thị tốt trên mọi thiết bị di động cũng như máy tính cá nhân.
 
 ---
 
-## 🚀 3. Hướng dẫn cài đặt và chạy thử (Local)
+## 2. Thành viên
+- **Lê Minh Khang:** Thiết kế giao diện (UI/UX), phát triển cấu trúc mã nguồn Front-End (Trang chủ, cấu trúc danh mục tài liệu, Trang liên hệ), cấu hình file hệ thống và thực hiện deploy dự án lên mạng qua GitHub Pages.
+- **Huỳnh Trần Gia Huy:** Nghiên cứu cấu trúc đề thi VSTEP, biên soạn dữ liệu câu hỏi mẫu, tổng hợp bài mẫu viết luận/nói theo chuẩn band B1/B2 và tối ưu hóa nội dung hiển thị trên các module tài liệu.
 
-Để chạy dự án này trên máy cá nhân, vui lòng thực hiện chính xác theo các bước sau trong Terminal:
+---
 
+## 3. Công nghệ sử dụng
+- **Framework:** Next.js 14 (App Router)
+- **Ngôn ngữ:** TypeScript
+- **Styling:** Tailwind CSS (Responsive Design)
+- **Quản lý package:** npm (Node Package Manager)
+- **CI/CD Platform:** GitHub Actions (Tự động hóa quy trình đóng gói tĩnh `next export`)
 
-### Bước 1: Di chuyển vào đúng thư mục chứa mã nguồn
+---
+
+## 4. Cài đặt và chạy local
+
+### Yêu cầu môi trường:
+* Máy tính đã cài đặt sẵn **Node.js** (Khuyến nghị phiên bản LTS 20.x hoặc mới hơn).
+
+### Các bước khởi chạy ứng dụng:
+1. **Clone project về máy:**
 ```bash
-cd "D:\my vstep app\my-vstep-hub"
-
-Bước 2: Đồng bộ và cài đặt môi trường (Node Modules)
-Tải toàn bộ các thư viện nền tảng bắt buộc của dự án (React, Next.js):
+   git clone [https://github.com/minhkhangle721-cpu/VSTEP-Learning-Hub.git](https://github.com/minhkhangle721-cpu/VSTEP-Learning-Hub.git)
+2.Di chuyển vào thư mục dự án:
 
 Bash
-npm install next react react-dom
+   cd VSTEP-Learning-Hub
 
-Bước 3: Kích hoạt chạy Web hệ thống
-Khởi động server chạy thử ở môi trường nội bộ:
+3.Cài đặt các thư viện (dependencies):
 
 Bash
-npm run dev
+   npm install
+
+4.Khởi chạy môi trường dev:
+
+Bash
+   npm run dev
+
+5. Link demo online
+Địa chỉ chạy trực tuyến chính thức: https://minhkhangle721-cpu.github.io/VSTEP-Learning-Hub/
+1. **Clone project về máy:**
+```bash
+   git clone [https://github.com/minhkhangle721-cpu/VSTEP-Learning-Hub.git](https://github.com/minhkhangle721-cpu/VSTEP-Learning-Hub.git)
