@@ -350,7 +350,5 @@ Therefore, considering both the spiritual value and practicality, a book stands 
         </div>
       )}
 
-      {/* FOOTER */}
-</div>
-</div>
+
 
