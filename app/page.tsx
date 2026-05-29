@@ -1,7 +1,6 @@
-<<<<<<< HEAD
 
-=======
->>>>>>> f2fe1cd892b79f0954bb2c46a3ef348af7361644
+
+
 "use client";
 
 import React, { useState } from "react";
@@ -40,11 +39,11 @@ I would love to come and celebrate this special day with you and our old friends
 I am looking forward to seeing you soon and catching up.
 
 Best wishes,
-<<<<<<< HEAD
+
 Lê Minh Khang & Huỳnh Trần Gia Huy`,
-=======
+
 Lê Minh Khang`,
->>>>>>> f2fe1cd892b79f0954bb2c46a3ef348af7361644
+
       analysis: "👉 Phân tích kỹ thuật: Bài viết sử dụng đúng cấu trúc thư thân mật (Informal email). Có lời cảm ơn, lời nhận lời chắc chắn, hỏi thông tin chi tiết (time, place) và kết thư đúng chuẩn."
     },
     {
@@ -72,9 +71,9 @@ In conclusion, social networking sites are a double-edged sword for the young ge
       topic: "Đề bài: Situation: You are choosing a Teacher's Day gift for your English teacher. There are three options: a bouquet of flowers, a book, and a souvenir. Which is the best choice?",
 <<<<<<< HEAD
       content: `[SCRIPT BÀI NÓI - KHANG & HUY]
-=======
+
       content: `[SCRIPT BÀI NÓI - LÊ MINH KHANG]
->>>>>>> f2fe1cd892b79f0954bb2c46a3ef348af7361644
+
       
 Well, faced with the situation of choosing a Teacher's Day gift for my English teacher among three options: a bouquet of flowers, a book, and a souvenir, I would argue that a book is the best choice.
 
@@ -167,15 +166,15 @@ Therefore, considering both the spiritual value and practicality, a book stands 
               </div>
               <div className="bg-gradient-to-br from-slate-900 to-slate-800 text-slate-100 p-5 rounded-xl shadow-md border border-slate-700 w-full md:w-auto shrink-0">
                 <p className="text-xs text-slate-400 uppercase tracking-widest font-bold mb-2">Sinh viên thực hiện</p>
-<<<<<<< HEAD
+
                 <p className="text-base font-bold text-blue-400">1. Lê Minh Khang</p>
                 <p className="text-base font-bold text-purple-400 mt-1">2. Huỳnh Trần Gia Huy</p>
                 <p className="text-xs text-slate-300 mt-2">Ngành: Công nghệ thông tin - LHU</p>
-=======
+
                 <p className="text-lg font-bold text-blue-400">Lê Minh Khang</p>
                 <p className="text-sm text-slate-300">Ngành: Công nghệ thông tin</p>
                 <p className="text-xs text-slate-400 mt-1">Trường Đại học Lạc Hồng</p>
->>>>>>> f2fe1cd892b79f0954bb2c46a3ef348af7361644
+
               </div>
             </div>
 
@@ -298,11 +297,11 @@ Therefore, considering both the spiritual value and practicality, a book stands 
         )}
       </main>
 
-<<<<<<< HEAD
+
       {/* POPUP CHI TIẾT */}
-=======
+
       {/* POPUP CHI TIẾT (BẬT LÊN KHI ẤN) */}
->>>>>>> f2fe1cd892b79f0954bb2c46a3ef348af7361644
+
       {selectedMaterial && (
         <div className="fixed inset-0 bg-black bg-opacity-60 flex items-center justify-center p-4 z-50">
           <div className="bg-white rounded-2xl max-w-2xl w-full max-h-[85vh] overflow-y-auto shadow-2xl flex flex-col p-6 space-y-4">
@@ -354,16 +353,16 @@ Therefore, considering both the spiritual value and practicality, a book stands 
       {/* FOOTER */}
       <footer className="bg-slate-900 text-slate-400 py-6 text-xs text-center mt-auto">
         <p className="font-semibold text-slate-300">Dự Án Xây Dựng Hệ Thống Hỗ Trợ Ôn Tập Khung Năng Lực Ngoại Ngữ VSTEP</p>
-<<<<<<< HEAD
+
         <p className="mt-1">Bản quyền thuộc về Tiểu luận giữa kỳ CNTT LHU — SV thực hiện: <span className="text-slate-200 font-bold">Lê Minh Khang & Huỳnh Trần Gia Huy</span></p>
       </footer>
     </div>
   );
 }
-=======
+
         <p className="mt-1">Bản quyền thuộc về Tiểu luận giữa kỳ CNTT LHU — SV thực hiện: <span className="text-slate-200 font-bold">Lê Minh Khang</span></p>
       </footer>
     </div>
   );
 }
->>>>>>> f2fe1cd892b79f0954bb2c46a3ef348af7361644
+
