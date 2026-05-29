@@ -42,7 +42,7 @@ Best wishes,
 
 Lê Minh Khang & Huỳnh Trần Gia Huy`,
 
-Lê Minh Khang`,
+Lê Minh Khang,
 
       analysis: "👉 Phân tích kỹ thuật: Bài viết sử dụng đúng cấu trúc thư thân mật (Informal email). Có lời cảm ơn, lời nhận lời chắc chắn, hỏi thông tin chi tiết (time, place) và kết thư đúng chuẩn."
     },
