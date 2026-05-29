@@ -47,7 +47,6 @@ Lê Minh Khang & Huỳnh Trần Gia Huy`,
       level: "Mức độ: B2 - C1",
       topic: "Đề bài: Social networking sites have a huge impact on the young generation. Write an essay discussing both advantages and disadvantages of this trend.",
       content: `In the modern era, social networking sites like Facebook, TikTok, and Instagram have become an integral part of young people's daily lives. While these platforms offer undeniable benefits, they also bring significant drawbacks that need to be addressed.
-
 On the one hand, social media provides youngsters with numerous advantages. First and foremost, it serves as an excellent tool for communication and learning. Students can easily connect with classmates, share study materials, and participate in online educational groups. Furthermore, social networks are a rich source of entertainment and news, keeping the youth informed about global events instantly.
 
 On the other hand, the negative impacts of social media are deep concerns. The primary disadvantage is the risk of addiction. Many teenagers spend hours scrolling through their feeds, which leads to a sedentary lifestyle and poor academic performance. Additionally, cyberbullying and the lack of face-to-face interaction can harm their mental health, causing anxiety and depression.
@@ -77,7 +76,7 @@ Therefore, considering both the spiritual value and practicality, a book stands 
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { name, value } = e.target;
-    setFormData((prev) => ({ ...prev, [name]: value }));
+setFormData((prev) => ({ ...prev, [name]: value }));
   };
 
   const handleSubmit = (e: React.FormEvent) => {
@@ -146,7 +145,7 @@ Therefore, considering both the spiritual value and practicality, a book stands 
                 <span className="bg-blue-50 text-blue-700 text-xs font-semibold px-2.5 py-1 rounded-md uppercase tracking-wider">
                   Dự án giữa kỳ - LHU
                 </span>
-                <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-950">
+<h2 className="text-2xl sm:text-3xl font-extrabold text-slate-950">
                   Chào mừng đến với VSTEP Learning Hub
                 </h2>
                 <p className="text-slate-600 max-w-xl text-sm leading-relaxed">
@@ -185,7 +184,7 @@ Therefore, considering both the spiritual value and practicality, a book stands 
         {/* TAB 2: TÀI LIỆU MẪU */}
         {activeTab === "materials" && (
           <div className="space-y-6">
-            <div className="border-b border-slate-200 pb-4">
+<div className="border-b border-slate-200 pb-4">
               <h2 className="text-2xl font-bold text-slate-900">Thư viện bài mẫu chuẩn hóa</h2>
               <p className="text-sm text-slate-500">Tổng hợp đề và đáp án gợi ý cho kỹ năng Writing & Speaking</p>
             </div>
@@ -239,7 +238,7 @@ Therefore, considering both the spiritual value and practicality, a book stands 
               ) : (
                 <form onSubmit={handleSubmit} className="space-y-4">
                   <div>
-                    <label className="block text-xs font-bold text-slate-500 mb-1">Họ và tên</label>
+<label className="block text-xs font-bold text-slate-500 mb-1">Họ và tên</label>
                     <input
                       type="text"
                       required
@@ -302,7 +301,7 @@ Therefore, considering both the spiritual value and practicality, a book stands 
             <div className="space-y-4 text-left">
               <div className="bg-slate-50 border-l-4 border-slate-400 p-3 rounded-r-lg">
                 <p className="text-xs font-bold text-slate-700">ĐỀ BÀI CHUẨN VSTEP:</p>
-                <p className="text-sm text-slate-600 italic mt-1">{selectedMaterial.topic}</p>
+<p className="text-sm text-slate-600 italic mt-1">{selectedMaterial.topic}</p>
               </div>
 
               <div className="space-y-1">
@@ -337,4 +336,3 @@ Therefore, considering both the spiritual value and practicality, a book stands 
     </div>
   );
 }
-
