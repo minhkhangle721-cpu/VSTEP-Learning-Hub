@@ -69,7 +69,7 @@ In conclusion, social networking sites are a double-edged sword for the young ge
       target: "Mục tiêu: So sánh giữa 3 lựa chọn (Hoa, Sách, Quà lưu niệm) và đưa ra lập luận thuyết phục.",
       level: "Mức độ: B1 - B2",
       topic: "Đề bài: Situation: You are choosing a Teacher's Day gift for your English teacher. There are three options: a bouquet of flowers, a book, and a souvenir. Which is the best choice?",
-<<<<<<< HEAD
+
       content: `[SCRIPT BÀI NÓI - KHANG & HUY]
 
       content: `[SCRIPT BÀI NÓI - LÊ MINH KHANG]
