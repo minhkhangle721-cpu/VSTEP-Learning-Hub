@@ -351,18 +351,9 @@ Therefore, considering both the spiritual value and practicality, a book stands 
       )}
 
       {/* FOOTER */}
-      <footer className="bg-slate-900 text-slate-400 py-6 text-xs text-center mt-auto">
-        <p className="font-semibold text-slate-300">Dự Án Xây Dựng Hệ Thống Hỗ Trợ Ôn Tập Khung Năng Lực Ngoại Ngữ VSTEP</p>
-
-        <p className="mt-1">Bản quyền thuộc về Tiểu luận giữa kỳ CNTT LHU — SV thực hiện: <span className="text-slate-200 font-bold">Lê Minh Khang & Huỳnh Trần Gia Huy</span></p>
- 
-    </div>
-  );
-}
-
-       
       
-    </div>
-  );
-}
+ </div>
+        </div>
+      )
+    }
 
