@@ -360,7 +360,7 @@ Therefore, considering both the spiritual value and practicality, a book stands 
   );
 }
 
-        <p className="mt-1">Bản quyền thuộc về Tiểu luận giữa kỳ CNTT LHU — SV thực hiện: <span className="text-slate-200 font-bold">Lê Minh Khang</span></p>
+        <p className="mt-1">{"Bản quyền thuộc về Tiểu luận giữa kỳ CNTT LHU — SV thực hiện"}: <span className="text-slate-200 font-bold">Lê Minh Khang</span></p>
       </footer>
     </div>
   );
