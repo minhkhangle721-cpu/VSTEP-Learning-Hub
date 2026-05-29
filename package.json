@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 {
   "name": "my-vstep-hub",
   "version": "0.1.0",
@@ -25,7 +25,7 @@
     "typescript": "^5"
   }
 }
-=======
+
 {
   "name": "my-vstep-hub",
   "version": "0.1.0",
