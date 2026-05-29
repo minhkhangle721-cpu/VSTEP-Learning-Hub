@@ -3,7 +3,7 @@ import type { NextConfig } from "next";
 
 const repoName = 'my-vstep-hub'; // Tên thư mục dự án của b
 
-const repoName = 'VSTEP-Learning-Hub'; // Tên thư mục dự án của b
+
 
 const isProd = process.env.NODE_ENV === 'production';
 
@@ -20,7 +20,7 @@ const nextConfig: NextConfig = {
 
 export default nextConfig;
 
-export default nextConfig;
+
 
 
 
