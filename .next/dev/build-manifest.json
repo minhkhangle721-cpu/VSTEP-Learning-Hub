@@ -1,0 +1,26 @@
+{
+  "pages": {
+    "/_app": []
+  },
+  "devFiles": [],
+  "polyfillFiles": [
+    "static/chunks/0d43_next_dist_build_polyfills_polyfill-nomodule.js"
+  ],
+  "lowPriorityFiles": [
+    "static/development/_buildManifest.js",
+    "static/development/_ssgManifest.js",
+    "static/development/_clientMiddlewareManifest.js"
+  ],
+  "rootMainFiles": [
+    "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_0dix8yu._.js",
+    "static/chunks/0d43_next_dist_compiled_next-devtools_index_0-c93nf.js",
+    "static/chunks/0d43_next_dist_compiled_react-dom_0bjh061._.js",
+    "static/chunks/0d43_next_dist_compiled_react-server-dom-turbopack_05go16n._.js",
+    "static/chunks/0d43_next_dist_compiled_0um6g02._.js",
+    "static/chunks/0d43_next_dist_client_0jiee-i._.js",
+    "static/chunks/0d43_next_dist_0cakga1._.js",
+    "static/chunks/0d43_@swc_helpers_cjs_0v~41-m._.js",
+    "static/chunks/my vstep app_VSTEP-Learning-Hub_my vstep app_my-vstep-hub_0rqeker._.js",
+    "static/chunks/turbopack-my vstep app_VSTEP-Learning-Hub_my vstep app_my-vstep-hub_093nwjn._.js"
+  ]
+}
