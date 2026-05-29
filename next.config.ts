@@ -1,27 +1,13 @@
-import type { NextConfig } from "next";
-
-
-const repoName = 'VSTEP-Learning-Hub'; 
-
-
-
 const isProd = process.env.NODE_ENV === 'production';
 
-const nextConfig: NextConfig = {
-  output: 'export',          // Bắt buộc để xuất ra html/css tĩnh
+const nextConfig = {
+  output: 'export',
+  // Thay 'VSTEP-Learning-Hub' bằng tên repo của b
+  basePath: isProd ? '/VSTEP-Learning-Hub' : '',
+  assetPrefix: isProd ? '/VSTEP-Learning-Hub' : '',
   images: {
-    unoptimized: true,      // Bắt buộc để không bị lỗi thẻ Image
+    unoptimized: true, // Bắt buộc cho GitHub Pages
   },
-  trailingSlash: true,
-  basePath: isProd ? `/${repoName}` : '',
-  assetPrefix: isProd ? `/${repoName}/` : '',
 };
 
-
 export default nextConfig;
-
-
-
-
-
-
