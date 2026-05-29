@@ -355,13 +355,13 @@ Therefore, considering both the spiritual value and practicality, a book stands 
         <p className="font-semibold text-slate-300">Dự Án Xây Dựng Hệ Thống Hỗ Trợ Ôn Tập Khung Năng Lực Ngoại Ngữ VSTEP</p>
 
         <p className="mt-1">Bản quyền thuộc về Tiểu luận giữa kỳ CNTT LHU — SV thực hiện: <span className="text-slate-200 font-bold">Lê Minh Khang & Huỳnh Trần Gia Huy</span></p>
-      </footer>
+ 
     </div>
   );
 }
 
        
-      </footer>
+      
     </div>
   );
 }
