@@ -1,7 +1,7 @@
 import type { NextConfig } from "next";
 
 
-const repoName = 'my-vstep-hub'; // Tên thư mục dự án của b
+const repoName = 'VSTEP-Learning-Hub'; 
 
 
 
