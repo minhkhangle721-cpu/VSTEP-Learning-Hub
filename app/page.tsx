@@ -70,9 +70,9 @@ In conclusion, social networking sites are a double-edged sword for the young ge
       level: "Mức độ: B1 - B2",
       topic: "Đề bài: Situation: You are choosing a Teacher's Day gift for your English teacher. There are three options: a bouquet of flowers, a book, and a souvenir. Which is the best choice?",
 
-      content: `[SCRIPT BÀI NÓI - KHANG & HUY]
+      content: [SCRIPT BÀI NÓI - KHANG & HUY]
 
-      content: `[SCRIPT BÀI NÓI - LÊ MINH KHANG]
+      content: [SCRIPT BÀI NÓI - LÊ MINH KHANG]
 
       
 Well, faced with the situation of choosing a Teacher's Day gift for my English teacher among three options: a bouquet of flowers, a book, and a souvenir, I would argue that a book is the best choice.
