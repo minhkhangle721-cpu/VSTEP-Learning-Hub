@@ -53,13 +53,13 @@ Lê Minh Khang,
       target: "Mục tiêu: Triển khai bài viết 250 từ, đầy đủ luận điểm, luận cứ chứng minh lợi ích và tác hại.",
       level: "Mức độ: B2 - C1",
       topic: "Đề bài: Social networking sites have a huge impact on the young generation. Write an essay discussing both advantages and disadvantages of this trend.",
-      content: `In the modern era, social networking sites like Facebook, TikTok, and Instagram have become an integral part of young people's daily lives. While these platforms offer undeniable benefits, they also bring significant drawbacks that need to be addressed.
+      content: In the modern era, social networking sites like Facebook, TikTok, and Instagram have become an integral part of young people's daily lives. While these platforms offer undeniable benefits, they also bring significant drawbacks that need to be addressed.
 
 On the one hand, social media provides youngsters with numerous advantages. First and foremost, it serves as an excellent tool for communication and learning. Students can easily connect with classmates, share study materials, and participate in online educational groups. Furthermore, social networks are a rich source of entertainment and news, keeping the youth informed about global events instantly.
 
 On the other hand, the negative impacts of social media are deep concerns. The primary disadvantage is the risk of addiction. Many teenagers spend hours scrolling through their feeds, which leads to a sedentary lifestyle and poor academic performance. Additionally, cyberbullying and the lack of face-to-face interaction can harm their mental health, causing anxiety and depression.
 
-In conclusion, social networking sites are a double-edged sword for the young generation. To maximize the benefits and reduce the harms, young users should learn to manage their screen time effectively and use these platforms with caution.`,
+In conclusion, social networking sites are a double-edged sword for the young generation. To maximize the benefits and reduce the harms, young users should learn to manage their screen time effectively and use these platforms with caution.,
       analysis: "👉 Phân tích kỹ thuật: Bài viết đạt cấu trúc 4 đoạn chuẩn Academic Essay (Mở bài - 2 Thân bài đối lập - Kết bài). Sử dụng các từ nối ghi điểm cao (In the modern era, On the one hand, Furthermore, In conclusion)."
     },
     {
