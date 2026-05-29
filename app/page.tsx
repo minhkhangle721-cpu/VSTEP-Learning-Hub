@@ -40,7 +40,7 @@ I am looking forward to seeing you soon and catching up.
 
 Best wishes,
 
-Lê Minh Khang & Huỳnh Trần Gia Huy`,
+Lê Minh Khang & Huỳnh Trần Gia Huy,
 
 Lê Minh Khang,
 
